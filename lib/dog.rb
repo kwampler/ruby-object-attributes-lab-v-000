@@ -1,7 +1,8 @@
 class Dog
-  def name=(dogs_name)
+  def name=(name)
     @name
   end
+  Fido = Dog.new
   def name
     "#{@name}".strip
   end
