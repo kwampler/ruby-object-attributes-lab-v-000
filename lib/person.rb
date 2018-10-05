@@ -2,8 +2,7 @@ class Person
   def name=(name)
     @name = name
   end
-  fido = Dog.new
-  def name
+  def name=(name)
     "#{@name}".strip
   end
   def breed=(breed)
