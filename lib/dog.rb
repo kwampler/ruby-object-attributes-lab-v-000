@@ -11,3 +11,4 @@ class Dog
   def full_name=(new_name)
     "#{@name} #{breed}".strip
   end
+end
