@@ -5,11 +5,11 @@ class Person
   def name
     "#{@name}".strip
   end
-  def breed=(breed)
-    @breed = breed
+  def job=(job)
+    @job = job
   end
-  def breed
-    "#{@breed}".strip
+  def job
+    "#{@job}".strip
   end  
 end
     
