@@ -3,7 +3,6 @@ class Dog
     @name = Fido
   end
   fido = Dog.new
-  fido.name = "Fido"
   def name
     "#{@name}".strip
   end
